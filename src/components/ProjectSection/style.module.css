@@ -1,0 +1,61 @@
+.project__container {
+  margin-top: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card__box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  width: 24.6875rem;
+  height: 11.4375rem;
+  border: 0.0625rem solid;
+  border-radius: var(--radius);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-inline: 2rem;
+}
+
+.card__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.knew_more {
+  color: var(--primary-color);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration: none;
+
+  position: relative;
+  top: 2rem;
+  border-bottom: 1px solid black;
+}
+
+.knew_more:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 25.875rem) {
+  .project__container {
+    align-items: center;
+  }
+
+  .card__box {
+    width: 332px;
+  }
+}

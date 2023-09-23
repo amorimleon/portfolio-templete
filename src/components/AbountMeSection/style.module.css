@@ -1,0 +1,29 @@
+.abountMe_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.375rem;
+  margin-top: 5.5rem;
+}
+
+.abountMe {
+  width: 17.875rem;
+  position: relative;
+  bottom: 3.625rem;
+}
+wid .abountMe_paragraph {
+  width: 48rem;
+}
+
+@media screen and (max-width: 25.875rem) {
+  .abountMe_box {
+    flex-direction: column;
+  }
+  .abountMe_paragraph {
+    width: 331px;
+  }
+  .abountMe {
+    bottom: -1.375rem;
+    left: -1.25rem;
+  }
+}

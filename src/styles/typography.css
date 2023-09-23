@@ -1,0 +1,32 @@
+.title1 {
+  color: var(--secundary-color);
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.title2 {
+  color: var(--secundary-color);
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.title3 {
+  color: var(--secundary-color);
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.paragraph {
+  color: var(--secundary-color);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}

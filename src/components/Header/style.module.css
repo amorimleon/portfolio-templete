@@ -1,0 +1,50 @@
+.header__container {
+  width: 100%;
+  max-width: 53.9375rem;
+  padding: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.4375rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: normal;
+
+  margin-top: 1rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.text,
+.contact__button {
+  font-size: 0.875rem;
+  line-height: normal;
+  font-weight: 600;
+  font-family: "Inter";
+}
+
+.contact__button {
+  width: 7.125rem;
+  height: 2.4375rem;
+  border-radius: 0.75rem;
+  color: var(--secundary-color);
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.contact__button:hover {
+  background-color: var(--color-primary-hover);
+}
+
+@media screen and (max-width: 25.875rem) {
+  .header__container {
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 5.5rem;
+    padding-top: 1rem;
+  }
+}
